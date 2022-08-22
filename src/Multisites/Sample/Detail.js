@@ -15,7 +15,6 @@ export default function Detail() {
     }
     const postQuery = `/${site}/posts/${postId}`;
     const postFromDb = await getData(postQuery);
-    console.log("postFromDb", postFromDb);
     if (postFromDb) {
       setPostDetails(postFromDb);
     }
