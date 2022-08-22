@@ -18,7 +18,6 @@ export const getData = async (query) => {
     const dbRef = ref(database);
     const data = await get(child(dbRef, query));
     if (data.exists()) {
-      console.log(data.val());
       return data.val();
     } else {
       console.log("No data available");

@@ -1,6 +1,6 @@
 function Contact() {
   return (
-    <div className="bg-gradient-to-b from-purple-600 to-indigo-700 h-96 w-full py-8">
+    <div className="bg-gradient-to-b from-slate-400 to-slate-200 h-96 w-full py-8">
       <div className="w-full flex items-center justify-center my-12">
         <div className="absolute top-40 bg-white dark:bg-gray-800 shadow rounded py-12 lg:px-28 px-8">
           <p className="md:text-3xl text-xl font-bold leading-7 text-center text-gray-700 dark:text-white">
